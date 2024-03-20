@@ -1,0 +1,33 @@
+* {
+ top: 0;
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+.container-fluid {
+ background-color: rgb(255, 123, 0);
+}
+
+.nav-item {
+ color: rgb(255, 255, 255);
+}
+
+.rect {
+ position: absolute;
+ left: 0;
+ right: 0;
+ height: 0;
+ top: 100px;
+ margin: auto;
+
+ height: 560px;
+ width: 1320px;
+ background-color: rgb(228, 228, 228);
+}
+
+.btn {
+ position: absolute;
+ top: 20px;
+ right: 20px;
+}
