@@ -5,12 +5,13 @@
  box-sizing: border-box;
 }
 
-.container-fluid {
- background-color: rgb(255, 123, 0);
+body {
+ background-color: #d3d3d3;
 }
 
-.nav-item {
- color: rgb(255, 255, 255);
+.navbar {
+ color: rgb(255, 153, 0);
+ /* font-weight: bold; */
 }
 
 .rect {
@@ -28,9 +29,10 @@
 
 #customer-add {
  position: absolute;
- top: 20px;
- right: 20px;
+ top: 47%;
+ right: 1.5%;
  border-radius: 0;
+ z-index: 1;
 }
 
 #customer-table {
@@ -45,14 +47,32 @@
  width: 97%;
 }
 
-.thead-tr {
- background-color: green;
- color: #e1ffde;
+.customer-forms {
+ position: absolute;
+ height: 40%;
+ width: 97%;
+ background-color: #ffffff;
+
+ top: 4%;
+ left: 0;
+ right: 0;
+ margin: auto;
 }
 
-.customer-forms {
- /* position: absolute; */
- height: 35%;
- width: 90%;
- background-color: #ffffff;
+.customer-serch-title {
+ position: absolute;
+ height: 13%;
+ width: 45%;
+ background-color: rgb(255, 174, 0);
+ z-index: 1;
+}
+
+.customer-details-title {
+ position: absolute;
+ height: 13%;
+ width: 45%;
+ background-color: rgb(255, 174, 0);
+ z-index: 1;
+
+ left: 55%;
 }
