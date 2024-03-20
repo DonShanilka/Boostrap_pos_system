@@ -18,11 +18,11 @@
  left: 0;
  right: 0;
  height: 0;
- top: 100px;
+ top: 15%;
  margin: auto;
 
- height: 560px;
- width: 1320px;
+ height: 82%;
+ width: 97%;
  background-color: rgb(240, 240, 240);
 }
 
@@ -42,5 +42,9 @@
  margin: auto;
 
  height: 30%;
- width: 95%;
+ width: 97%;
+}
+
+.table-header {
+ background-color: rgb(255, 192, 110);
 }
