@@ -23,11 +23,12 @@
 
  height: 560px;
  width: 1320px;
- background-color: rgb(228, 228, 228);
+ background-color: rgb(240, 240, 240);
 }
 
-.btn {
+#customer-add {
  position: absolute;
  top: 20px;
  right: 20px;
+ border-radius: 0;
 }
