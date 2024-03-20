@@ -32,3 +32,15 @@
  right: 20px;
  border-radius: 0;
 }
+
+#customer-table {
+ position: absolute;
+ bottom: 5%;
+ top: 70%;
+ left: 0;
+ right: 0;
+ margin: auto;
+
+ height: 30%;
+ width: 95%;
+}
