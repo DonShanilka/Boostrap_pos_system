@@ -45,6 +45,14 @@
  width: 97%;
 }
 
-.table-header {
- background-color: rgb(255, 192, 110);
+.thead-tr {
+ background-color: green;
+ color: #e1ffde;
+}
+
+.customer-forms {
+ /* position: absolute; */
+ height: 35%;
+ width: 90%;
+ background-color: #ffffff;
 }
