@@ -62,7 +62,7 @@ body {
 .customer-serch-title {
  position: absolute;
  height: 13%;
- width: 45%;
+ width: 48%;
  background-color: rgb(255, 174, 0);
  z-index: 1;
 }
@@ -70,9 +70,9 @@ body {
 .customer-details-title {
  position: absolute;
  height: 13%;
- width: 45%;
+ width: 48%;
  background-color: rgb(255, 174, 0);
  z-index: 1;
 
- left: 55%;
+ left: 52%;
 }
