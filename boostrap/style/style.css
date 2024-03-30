@@ -51,7 +51,7 @@ body {
  position: absolute;
  height: 40%;
  width: 97%;
- background-color: #ffffff;
+ background-color: #7c1818;
 
  top: 4%;
  left: 0;
@@ -75,4 +75,18 @@ body {
  z-index: 1;
 
  left: 52%;
+}
+
+.name-form {
+    position: absolute;
+    left: 40%;
+    top: 150%;
+    width: 50%;
+}
+
+.id-form {
+    position: absolute;
+    left: 5%;
+    top: 150%;
+    width: 30%;
 }
