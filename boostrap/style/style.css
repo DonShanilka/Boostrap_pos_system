@@ -51,7 +51,7 @@ body {
  position: absolute;
  height: 40%;
  width: 97%;
- background-color: #7c1818;
+ background-color: #ffffff;
 
  top: 4%;
  left: 0;
@@ -77,16 +77,56 @@ body {
  left: 52%;
 }
 
+.lable-name {
+    position: absolute;
+    left: 40%;
+    top: 30px;
+}
+
 .name-form {
     position: absolute;
     left: 40%;
-    top: 150%;
+    top: 55px;
     width: 50%;
+}
+
+.lable-id {
+    position: absolute;
+    left: 0%;
+    top: 30px;
 }
 
 .id-form {
     position: absolute;
-    left: 5%;
-    top: 150%;
-    width: 30%;
+    left: 0%;
+    top: 55px;
+    width: 35%;
+}
+
+.lable-address {
+    position: absolute;
+    left: 0%;
+    top: 100px;
+}
+
+.address-form {
+    position: absolute;
+    left: 0%;
+    top: 125px;
+    
+    width: 90%;
+}
+
+.lable-email {
+    position: absolute;
+    left: 0;
+    top: 170px;
+}
+
+.email-form {
+    position: absolute;
+    left: 0%;
+    top: 195px;
+    
+    width: 90%;
 }
