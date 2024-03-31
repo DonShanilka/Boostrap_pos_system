@@ -135,3 +135,8 @@ body {
     position: absolute;
     top: 55px;
 }
+
+.btn-success {
+    position: absolute;
+    border-radius: 0;
+}
