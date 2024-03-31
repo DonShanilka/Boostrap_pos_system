@@ -130,3 +130,8 @@ body {
     
     width: 90%;
 }
+
+.search-form {
+    position: absolute;
+    top: 55px;
+}
