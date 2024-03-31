@@ -73,7 +73,7 @@
     </tbody>
 </table>
 
-<!-- Item forms -->
+<!-- Customer forms -->
 <div class="customer-forms">
     <div class="customer-serch-title">Search Customer
         <input type="search" class="form-control search-form" id="inputEmail4" placeholder=" id / name">
@@ -107,66 +107,66 @@
 </div>
 
 <div class="item-main-div">
-    <button type="button" id="customer-add": class="btn btn-outline-primary">Add Customer</button>
+    <button type="button" id="customer-add": class="btn btn-outline-primary">Add Item</button>
 
     <!-- Item table -->
 <table id="customer-table": class="table table-hover ">
     <caption>List of Customer</caption>
     <thead class="table-dark" >
         <tr>
-            <th class="thead-tr"># ID</th>
+            <th class="thead-tr">Code</th>
             <th class="thead-tr"> Name</th>
-            <th class="thead-tr">Address</th>
-            <th class="thead-tr">Email</th>
+            <th class="thead-tr">Price</th>
+            <th class="thead-tr">Qty</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>C001</td>
-            <td>Shanilka</td>
-            <td>Maharagama</td>
-            <td>shanilka@mail.com</td>
+            <td>I001</td>
+            <td>Tomato Pitza</td>
+            <td>1000.00</td>
+            <td>5</td>
         </tr>
         <tr>
-            <td>C002</td>
-            <td>Sahan</td>
-            <td>Kaluthara</td>
-            <td>Sahan@mail.com</td>
+            <td>I002</td>
+            <td>Masala Pitza</td>
+            <td>850.00</td>
+            <td>1200</td>
         </tr>
         <tr>
-            <td>C003</td>
-            <td>Kavishka</td>
-            <td>Benthara</td>
-            <td>Kavishka@mail.com</td>
+            <td>I003</td>
+            <td>Chees Pitza</td>
+            <td>1300.00</td>
+            <td>23</td>
         </tr>                    
     </tbody>
 </table>
 
 <!-- Item forms -->
 <div class="customer-forms">
-    <div class="customer-serch-title">Search Customer
+    <div class="customer-serch-title">Search Item
         <input type="search" class="form-control search-form" id="inputEmail4" placeholder=" id / name">
         <button type="button" class="btn btn-success search-btn">Search</button>
     </div>
 
-    <div class="customer-details-title">Customer Details
+    <div class="customer-details-title">Item Details
         <form>
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="inputEmail4" class="lable-id">ID</label>
+                <label for="inputEmail4" class="lable-id">Item Code</label>
                 <input type="id" class="form-control id-form" id="inputEmail4" placeholder="">
               </div>
               <div class="form-group col-md-6">
-                <label for="inputPassword4" class="lable-name">Name</label>
+                <label for="inputPassword4" class="lable-name">Item Name</label>
                 <input type="name" class="form-control name-form" id="inputPassword4" placeholder="">
               </div>
             </div>
             <div class="form-group">
-              <label for="inputAddress" class="lable-address">Address</label>
+              <label for="inputAddress" class="lable-address">Price</label>
               <input type="address" class="form-control address-form" id="inputAddress" placeholder="">
             </div>
             <div class="form-group">
-              <label for="inputAddress2" class="lable-email">Email</label>
+              <label for="inputAddress2" class="lable-email">Qty</label>
               <input type="email" class="form-control email-form" id="inputAddress2" placeholder="">
             </div>
           </form>
