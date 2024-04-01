@@ -162,6 +162,9 @@ body {
     background-color: rgb(240, 240, 240);
 }
 
+
+/* Order Form Section */
+
 .order-rect {
     position: absolute;
     left: 0;
@@ -173,4 +176,9 @@ body {
     height: 82%;
     width: 97%;
     background-color: rgb(240, 240, 240);
+}
+
+
+.o-item-code {
+
 }
