@@ -175,10 +175,76 @@ body {
    
     height: 82%;
     width: 97%;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(255, 148, 148);
 }
 
 
 .o-item-code {
+    position: absolute;
+    top: 40%;
+    width: 15%;
+}
 
+.o-item-name {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 15%; 
+}
+
+.o-customer-id {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    width: 15%;
+}
+
+.o-customer-name {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    width: 15%;
+}
+
+.o-oder-id {
+    position: absolute;
+    top: 10%;
+    left: 1.5%;
+    width: 15%;
+}
+
+.o-oder-date {
+    position: absolute;
+    width: 15%;
+    top: 25%;
+}
+
+.o-total {
+    position: absolute;
+    width: 15%;
+    top: 25%;
+    left: 40%;
+}
+
+.o-qty {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 15%;
+}
+
+.search-form-order {
+    position: absolute;
+    top: 2%;
+    left: 68%;
+    width: 30%;
+    height: 6%;
+}
+
+.search-btn-order {
+    position: absolute;
+    top: 10%;
+    left: 83%;
+    width: 15%;
+    height: 6%;
 }
