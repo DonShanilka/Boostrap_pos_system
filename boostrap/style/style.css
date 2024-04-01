@@ -142,7 +142,7 @@ body {
     left: 0;
     top: 120px;
     
-    width: 120px;
+    width: 15vw;
 }
 
 
@@ -151,13 +151,26 @@ body {
 
 .item-main-div {
     position: absolute;
- left: 0;
- right: 0;
- height: 0;
- top: 110%;
- margin: auto;
+    left: 0;
+    right: 0;
+    height: 0;
+    top: 110%;
+    margin: auto;
 
- height: 82%;
- width: 97%;
- background-color: rgb(240, 240, 240);
+    height: 82%;
+    width: 97%;
+    background-color: rgb(240, 240, 240);
+}
+
+.order-rect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 0;
+    top: 210%;
+    margin: auto;
+   
+    height: 82%;
+    width: 97%;
+    background-color: rgb(240, 240, 240);
 }
