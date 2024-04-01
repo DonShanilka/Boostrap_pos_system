@@ -189,12 +189,33 @@
         </select>
     </div>
 
-      <div class="mb-3">
+    <div class="mb-3">
         <label for="disabledSelect" class="form-label">Customer Id</label>
         <select id="disabledSelect" class="form-select">
           <option>Disabled select</option>
         </select>
     </div>
+
+    <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4" class="">Oder Id</label>
+            <input type="id" class="form-control " id="inputEmail4" placeholder="">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4" class="">Date</label>
+            <input type="date" class="form-control " id="inputPassword4" placeholder="">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress" class="">Price</label>
+          <input type="address" class="form-control" id="inputAddress" placeholder="">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2" class="">Qty</label>
+          <input type="email" class="form-control " id="inputAddress2" placeholder="">
+        </div>
+      </form>
 
     <table id="customer-table": class="table table-hover ">
         <caption>List of Item</caption>
@@ -206,9 +227,9 @@
                 <th class="thead-tr">Item Name</th>
                 <th class="thead-tr">Customer Id</th>
                 <th class="thead-tr">Customer name</th>
-                <th class="thead-tr">Qty</th>
-                <th class="thead-tr">Price</th>
-                <th class="thead-tr">Cash</th>
+                <th class="thead-tr"> Qty </th>
+                <th class="thead-tr"> Total </th>
+                <th class="thead-tr"> Cash </th>
                 <th class="thead-tr">Discount</th>
                 <th class="thead-tr">Balance</th>
                 
@@ -216,23 +237,19 @@
         </thead>
         <tbody>
             <tr>
+                <td>O-001</td>
+                <td>2024-04-1</td>
                 <td>I001</td>
                 <td>Tomato Pitza</td>
-                <td>1000.00</td>
-                <td>5</td>
+                <td>C002</td>
+                <td>Shanilka</td>
+                <td>1</td>
+                <td>1200.00</td>
+                <td>1500.00</td>
+                <td>150.00</td>
+                <td>450.00</td>
             </tr>
-            <tr>
-                <td>I002</td>
-                <td>Masala Pitza</td>
-                <td>850.00</td>
-                <td>1200</td>
-            </tr>
-            <tr>
-                <td>I003</td>
-                <td>Chees Pitza</td>
-                <td>1300.00</td>
-                <td>23</td>
-            </tr>                    
+                     
         </tbody>
     </table>
 
