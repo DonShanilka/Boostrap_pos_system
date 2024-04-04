@@ -289,3 +289,10 @@ body {
     left: 58%;
     width: 15%; 
 }
+
+.balence {
+    position: absolute;
+    top: 35%;
+    left: 78%;
+    width: 15%;
+}
