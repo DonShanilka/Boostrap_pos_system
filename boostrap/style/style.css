@@ -175,7 +175,7 @@ body {
    
     height: 82%;
     width: 97%;
-    background-color: rgb(255, 148, 148);
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -183,6 +183,7 @@ body {
     position: absolute;
     top: 40%;
     width: 15%;
+    left: 1.5%;
 }
 
 .o-item-name {
@@ -217,6 +218,7 @@ body {
     position: absolute;
     width: 15%;
     top: 25%;
+    left: 1.5%;
 }
 
 .o-total {
