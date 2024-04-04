@@ -282,3 +282,10 @@ body {
     left: 58%;
     width: 15%;
 }
+
+.cash {
+    position: absolute;
+    top: 35%;
+    left: 58%;
+    width: 15%; 
+}
