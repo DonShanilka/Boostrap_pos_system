@@ -26,3 +26,12 @@ body {
 
  left: 15%;
 }
+
+#plate {
+ width: 25%;
+ height: 50%;
+ position: absolute;
+ top: 30%;
+ left: 15%;
+ z-index: 2;
+}
