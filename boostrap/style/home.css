@@ -1,0 +1,28 @@
+body {
+ background-color: rgba(236, 236, 236, 0.253);
+}
+
+.main-div {
+ position: absolute;
+ width: 80%;
+ height: 80%;
+ background-color: rgb(255, 255, 255);
+ display: flex;
+ top: 0%;
+ right: 0%;
+ bottom: 0%;
+ left: 0%;
+ margin: auto;
+ box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+ border-radius: 5px;
+}
+
+.black-div {
+ position: absolute;
+ width: 20%;
+ height: 70%;
+ background-color: rgba(20, 20, 20, 0.842);
+ z-index: 2;
+
+ left: 15%;
+}
