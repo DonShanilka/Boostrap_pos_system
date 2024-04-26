@@ -1,52 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lexend+Giga:wght@100..900&family=Lexend+Zetta:wght@100..900&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Limelight&family=Monoton&family=Oregano:ital@0;1&family=Pacifico&family=Plaster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
- font-family: sans-serif;
-}
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-body {
- background-color: rgba(236, 236, 236, 0.253);
-}
+ body {
+  background-color: rgba(236, 236, 236, 0.253);
+ }
 
-.main-div {
- position: absolute;
- width: 80%;
- height: 80%;
- background-color: rgb(255, 255, 255);
- display: flex;
- top: 0%;
- right: 0%;
- bottom: 0%;
- left: 0%;
- margin: auto;
- box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
- border-radius: 5px;
-}
+ .main-div {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  margin: auto;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  border-radius: 5px;
+ }
 
-.black-div {
- position: absolute;
- width: 23%;
- height: 80%;
- background-color: rgb(27, 27, 27);
- z-index: 2;
+ .black-div {
+  position: absolute;
+  width: 23%;
+  height: 80%;
+  background-color: rgb(27, 27, 27);
+  z-index: 2;
 
- left: 15%;
-}
+  left: 15%;
+ }
 
-#plate {
- width: 28%;
- height: 55%;
- position: absolute;
- top: 29%;
- left: 12.5%;
- z-index: 2;
- box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
- border-radius: 50%;
- background-color: black;
-}
+ #plate {
+  width: 28%;
+  height: 55%;
+  position: absolute;
+  top: 29%;
+  left: 12.5%;
+  z-index: 2;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 50%;
+  background-color: black;
+ }
 
-.h1 {
- font-size: 60px;
- font-weight: bold;
- position: absolute;
- left: 50%;
- top: 15%;
-}
+ .h1 {
+  font-size: 60px;
+  font-weight: bolder;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+ }
