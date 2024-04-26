@@ -67,17 +67,17 @@ body {
 
 .p1 {
  position: absolute;
- top: 48%;
+ top: 42%;
  left: 50%;
 }
 
 .Singin-btn {
  width: 100px;
- height: 30px;
+ height: 40px;
  background-color: black;
  color: aliceblue;
 
  position: absolute;
- top: 70%;
+ top: 60%;
  left: 50%;
 }
