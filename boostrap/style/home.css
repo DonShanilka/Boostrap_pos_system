@@ -47,7 +47,13 @@ body {
  border-radius: 50%;
  background-color: black;
  display: flex;
+ transition-duration: 2s;
 }
+
+#plate:hover {
+ transform: scale(1.04);
+}
+
 
 .h1 {
  font-size: 40px;
