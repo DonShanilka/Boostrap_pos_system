@@ -64,3 +64,9 @@ body {
  left: 50%;
  top: 30%;
 }
+
+.p1 {
+ position: absolute;
+ top: 48%;
+ left: 50%;
+}
