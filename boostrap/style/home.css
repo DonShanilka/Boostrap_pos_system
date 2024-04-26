@@ -30,7 +30,8 @@ body {
  position: absolute;
  width: 23%;
  height: 80%;
- background-color: rgb(27, 27, 27);
+ background: rgb(0, 255, 25);
+ background: linear-gradient(0deg, rgba(0, 255, 25, 1) 0%, rgb(0, 231, 19) 19%, rgb(0, 212, 14) 32%, rgb(0, 224, 11) 54%, rgb(6, 185, 0) 85%);
  z-index: 2;
  display: flex;
  left: 15%;
@@ -43,7 +44,7 @@ body {
  top: 29%;
  left: 12.5%;
  z-index: 2;
- box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.212) 0px 15px 12px;
  border-radius: 50%;
  background-color: black;
  display: flex;
@@ -62,6 +63,8 @@ body {
  left: 50%;
  top: 25%;
  display: flex;
+ color: rgb(0, 255, 0);
+
 }
 
 .h2 {
@@ -76,14 +79,17 @@ body {
  position: absolute;
  top: 42%;
  left: 50%;
+ font-weight: bold;
+ color: rgb(104, 104, 104);
 }
 
 .Singin-btn {
+ font-weight: bolder;
  width: 100px;
  height: 40px;
- background-color: black;
- color: rgb(255, 255, 255);
-
+ background-color: rgb(30, 255, 0);
+ color: rgb(0, 0, 0);
+ border: 2px rgb(0, 255, 0) solid;
  position: absolute;
  top: 60%;
  left: 50%;
