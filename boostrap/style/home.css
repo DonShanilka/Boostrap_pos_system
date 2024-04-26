@@ -92,4 +92,16 @@ body {
  height: 40px;
 }
 
-.h5 {}
+.h5 {
+ font-family: "Oregano", cursive;
+ font-weight: bolder;
+ font-style: normal;
+ font-size: 50px;
+ color: rgb(255, 255, 255);
+ letter-spacing: 0.4vw;
+
+ position: absolute;
+ left: 21.7%;
+ top: 3%;
+ z-index: 3;
+}
