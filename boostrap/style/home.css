@@ -75,9 +75,18 @@ body {
  width: 100px;
  height: 40px;
  background-color: black;
- color: aliceblue;
+ color: rgb(255, 255, 255);
 
  position: absolute;
  top: 60%;
  left: 50%;
+}
+
+.SingUp-btn {
+ position: absolute;
+ top: 60%;
+ left: 58%;
+
+ width: 100px;
+ height: 40px;
 }
