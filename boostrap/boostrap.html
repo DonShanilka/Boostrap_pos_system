@@ -138,7 +138,7 @@
 <!-- Item Section -->
 
 <section id="item-section">
-<div class="item-main-div">
+<div class="item-main-div" id="item-div">
     <button type="button" id="customer-add": class="btn btn-outline-primary">Add Item</button>
 
     <!-- Item table -->
@@ -329,6 +329,21 @@
         $('#home-section').css({
             display:'none'
         });
+    });
+
+    $('#nav-item').on('click',()=>{
+        $('#item-section').css({
+            display:'block',
+            
+        });
+
+        $('#home-section').css({
+            display:'none'
+        });
+
+        $('#customer-section').css({
+        display:'none'
+    });
     });
 
 </script>
