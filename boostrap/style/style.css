@@ -191,6 +191,18 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+.order-rect-main {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 0;
+    top: 10%;
+    margin: auto;
+   
+    height: 82%;
+    width: 97%;
+    background-color: rgb(255, 255, 255);
+}
 
 .o-item-code {
     position: absolute;

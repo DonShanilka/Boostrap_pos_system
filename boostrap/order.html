@@ -13,6 +13,107 @@
     <title>Document</title>
 </head>
 <body>
+
+    <div class="order-rect-main">
+
+        <div class="mb-3">
+            
+            <select id="disabledSelect" class="form-select o-item-code">
+              <option>Item Code</option>
+            </select>
+        </div>
+    
+        <div class="form-group">
+            
+            <input type="text" class="form-control o-item-name" id="inputAddress2" placeholder="Item Name">
+        </div>
+    
+        <div class="mb-3">
+            
+            <select id="disabledSelect" class="form-select o-customer-id">
+              <option>Customer ID</option>
+            </select>
+        </div>
+        <div class="form-group">
+            
+            <input type="email" class="form-control o-customer-name" id="inputAddress2" placeholder="Customer Name">
+        </div>
+    
+        <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                
+                <input type="id" class="form-control o-oder-id" id="inputAddress" placeholder="Order Id">
+              </div>
+              <div class="form-group col-md-6">
+                
+                <input type="date" class="form-control o-oder-date" id="inputPassword4" placeholder="Date">
+              </div>
+            </div>
+            <div class="form-group">
+              
+              <input type="address" class="form-control o-total" id="inputAddress" placeholder="Total">
+            </div>
+            <div class="form-group">
+             
+              <input type="email" class="form-control o-qty" id="inputAddress2" placeholder="Qty">
+            </div>
+    
+                
+                <input type="search" class="form-control search-form-order" id="inputEmail4" placeholder=" id / name">
+                <button type="button" class="btn btn-success search-btn-order">Search</button>
+            
+          </form>
+    
+        <table id="customer-table": class="table table-hover ">
+            <caption>List of Item</caption>
+            <thead class="table-dark" >
+                <tr>
+                    <th class="thead-tr">Order Id</th>
+                    <th class="thead-tr">Date</th>
+                    <th class="thead-tr">Item Code</th>
+                    <th class="thead-tr">Item Name</th>
+                    <th class="thead-tr">Customer Id</th>
+                    <th class="thead-tr">Customer name</th>
+                    <th class="thead-tr"> Qty </th>
+                    <th class="thead-tr"> Total </th>
+                    <th class="thead-tr"> Cash </th>
+                    <th class="thead-tr">Discount</th>
+                    <th class="thead-tr">Balance</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>O-001</td>
+                    <td>2024-04-1</td>
+                    <td>I001</td>
+                    <td>Tomato Pitza</td>
+                    <td>C002</td>
+                    <td>Shanilka</td>
+                    <td>1</td>
+                    <td>1200.00</td>
+                    <td>1500.00</td>
+                    <td>150.00</td>
+                    <td>450.00</td>
+                </tr>
+                         
+            </tbody>
+        </table>
+    
+        <div class="place-order-cal"></div>
+    
+        <input type="search" class="form-control cash"  placeholder=" Cash">
+        <input type="search" class="form-control subtotle "  placeholder=" SubTotal ">
+        <input type="search" class="form-control discount"  placeholder="Discount">
+        <input type="search" class="form-control cash"  placeholder=" Cash ">
+        <input type="search" class="form-control balence"  placeholder="Balence">
+    
+        <button type="button" class="btn btn-success add-to-cart">Add</button>
+        <button type="button" class="btn btn-primary Place">Place</button>
+    
+    </div>
+    
     
 </body>
 </html>
