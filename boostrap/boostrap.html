@@ -307,6 +307,7 @@
 </div>
 </section>
 
+<!-- JQuery  -->
 <script src="/Jquary/jquery-3.7.1.min.js"></script>
 <script>
     $('#customer-section').css({
@@ -334,7 +335,6 @@
     $('#nav-item').on('click',()=>{
         $('#item-section').css({
             display:'block',
-            
         });
 
         $('#home-section').css({
@@ -344,6 +344,24 @@
         $('#customer-section').css({
         display:'none'
     });
+    });
+
+    $('#nav-order').on('click',()=>{
+        $('#order-section').css({
+            display:'block',
+        });
+
+        $('#home-section').css({
+            display:'none'
+        });
+
+        $('#customer-section').css({
+            display:'none'
+        });
+
+        $('#item-section').css({
+            display:'none'
+        });
     });
 
 </script>
