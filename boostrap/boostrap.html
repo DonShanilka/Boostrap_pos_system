@@ -8,6 +8,7 @@
 
     <!-- style sheet -->
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/home.css">
     
 
  <title> POS SYSTEM </title>
@@ -38,6 +39,34 @@
     </div>
 </nav>
 
+
+    <!-- Home page Section -->
+
+    <section id="home-section">
+        <div class="main-div">
+
+            <div class="black-div"></div>
+            <img src="/assets/posui-plate-modified.png" alt="" id="plate">
+          
+            <h1 class="h1">Wake Up Early,</h1>
+            <h2 class="h2">Eat Fresh & Healthy</h2>
+          
+            <p class="p1">Aside from their natural good taste and great crunchy <br> 
+              texture alongside wonderful colours and fragrances, <br>
+              eating a large serving of fresh.
+            </p>
+          
+            <h5 class="h5">Wilma</h5>
+          
+             <button type="button" class="btn btn-dark Singin-btn">Singin</button>
+             <button type="button" class="btn btn-outline-dark SingUp-btn">SingUp</button>  
+          
+           </div>
+    </section>
+
+
+
+<section id="customer-section">
 <div class="rect">
     <button type="button" id="customer-add": class="btn btn-outline-primary">Add Customer</button>
 
@@ -102,9 +131,12 @@
     </div>
 </div>
 </div>
+</section>
+
 
 <!-- Item Section -->
 
+<section id="item-section">
 <div class="item-main-div">
     <button type="button" id="customer-add": class="btn btn-outline-primary">Add Item</button>
 
@@ -169,10 +201,11 @@
     </div>
 </div>
 </div>
- 
+</section> 
+
 
 <!-- Order Section -->
-
+<section id="order-section">
 <div class="order-rect">
 
     <div class="mb-3">
@@ -271,6 +304,23 @@
     <button type="button" class="btn btn-primary Place">Place</button>
 
 </div>
+</section>
+
+<script src="/Jquary/jquery-3.7.1.min.js"></script>
+<script>
+    $('#customer-section').css({
+        display:'none'
+    });
+
+    $('#item-section').css({
+        display:'none'
+    });
+
+    $('#order-section').css({
+        display:'none'
+    });
+
+</script>
 
 </body>
 </html>
