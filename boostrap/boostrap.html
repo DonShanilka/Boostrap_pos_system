@@ -28,9 +28,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
-                <a href="#" class="nav-item nav-link active">Home</a>
-                <a href="#" class="nav-item nav-link">Item</a>
-                <a href="#" class="nav-item nav-link">Orders</a>
+                <a href="#" class="nav-item nav-link active" id="nav-home">Home</a>
+                <a href="#" class="nav-item nav-link" id="nav-customer">Customer</a>
+                <a href="#" class="nav-item nav-link" id="nav-item">Item</a>
+                <a href="#" class="nav-item nav-link" id="nav-order">Orders</a>
             </div>
             <div class="navbar-nav ms-auto">
                 <a href="#" class="nav-item nav-link">Login</a>
@@ -318,6 +319,16 @@
 
     $('#order-section').css({
         display:'none'
+    });
+
+    $('#nav-customer').on('click',()=>{
+        $('#customer-section').css({
+            display:'block'
+        });
+
+        $('#home-section').css({
+            display:'none'
+        });
     });
 
 </script>
