@@ -162,6 +162,19 @@ body {
     background-color: rgb(240, 240, 240);
 }
 
+.item-main {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 0;
+    top: 10%;
+    margin: auto;
+
+    height: 82%;
+    width: 97%;
+    background-color: rgb(240, 240, 240);
+}
+
 
 /* Order Form Section */
 
