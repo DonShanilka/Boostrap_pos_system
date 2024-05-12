@@ -72,7 +72,7 @@
     </section>
 
 
-
+<!-- ****************** Customer Section ********************* -->
 <section id="customer-section">
 <div class="rect">
     <button type="button" id="customer-add": class="btn btn-outline-primary">Add Customer</button>
@@ -88,25 +88,14 @@
             <th class="thead-tr">Email</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody id="cust-table">
         <tr>
             <td>C001</td>
             <td>Shanilka</td>
             <td>Maharagama</td>
             <td>shanilka@mail.com</td>
         </tr>
-        <tr>
-            <td>C002</td>
-            <td>Sahan</td>
-            <td>Kaluthara</td>
-            <td>Sahan@mail.com</td>
-        </tr>
-        <tr>
-            <td>C003</td>
-            <td>Kavishka</td>
-            <td>Benthara</td>
-            <td>Kavishka@mail.com</td>
-        </tr>                    
+                          
     </tbody>
 </table>
 
@@ -121,17 +110,17 @@
         <form>
             <div class="form-row">
               <div class="form-group col-md-6">
-                <input type="id" class="form-control id-form" id="inputAddress2" placeholder="Id">
+                <input type="id" class="form-control id-form cust-id" id="customer-id" placeholder="Id">
               </div>
               <div class="form-group col-md-6">
-                <input type="name" class="form-control name-form" id="inputAddress" placeholder="Name">
+                <input type="name" class="form-control name-form cust-name" id="customer-name" placeholder="Name">
               </div>
             </div>
             <div class="form-group">
-              <input type="address" class="form-control address-form" id="inputAddress" placeholder="Address">
+              <input type="address" class="form-control address-form cust-address" id="customer-address" placeholder="Address">
             </div>
             <div class="form-group">
-              <input type="email" class="form-control email-form" id="inputEmail4" placeholder="Email">
+              <input type="email" class="form-control email-form cust-email" id="customer-email" placeholder="Email">
             </div>
           </form>
         
@@ -539,6 +528,25 @@
         $('#header').css({
             display: 'block'
         });
+    });
+
+
+
+    // Details Save Customer
+    $('#customer-add').on('click',()=>{
+        var custId = $('#customer-id').val();
+        var custName = $('#customer-name').val();
+        var custAddress = $('#customer-address').val();
+        var custEmail = $('#customer-email').val();
+
+        var record = `<tr>
+            <th scope="row" class="cust-id">${custId}</th>
+            <td class="cust-name">${custName}</td>
+            <td class="cust-address">${custAddress}</td>
+            <td class="cust-email">${custEmail}</td>
+        </tr>`;
+        $('#cust-table').append(record);
+
     });
 
 </script>
