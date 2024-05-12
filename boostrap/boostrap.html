@@ -18,28 +18,34 @@
 <body>
 
     <!-- NavBar section -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+<header id="header">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
         <a href="#" class="navbar-brand">
             <img src="/assets/pizza.png" height="28" alt="CoolBrand">
         </a>
+
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav">
-                <a href="#" class="nav-item nav-link active" id="nav-home">Home</a>
-                <a href="#" class="nav-item nav-link" id="nav-customer">Customer</a>
-                <a href="#" class="nav-item nav-link" id="nav-item">Item</a>
-                <a href="#" class="nav-item nav-link" id="nav-order">Orders</a>
-                <a href="#" class="nav-item nav-link" id="nav-order-details">Order Details</a>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link active" id="nav-home">Home</a>
+                    <a href="#" class="nav-item nav-link" id="nav-customer">Customer</a>
+                    <a href="#" class="nav-item nav-link" id="nav-item">Item</a>
+                    <a href="#" class="nav-item nav-link" id="nav-order">Orders</a>
+                    <a href="#" class="nav-item nav-link" id="nav-order-details">Order Details</a>
+                </div>
+
+                <div class="navbar-nav ms-auto">
+                    <a href="#" class="nav-item nav-link">Login</a>
+                </div>
             </div>
-            <div class="navbar-nav ms-auto">
-                <a href="#" class="nav-item nav-link">Login</a>
-            </div>
+
         </div>
-    </div>
-</nav>
+    </nav>
+</header>
 
 
     <!-- Home page Section -->
@@ -60,8 +66,7 @@
           
             <h5 class="h5">Wilma</h5>
           
-             <button type="button" class="btn btn-dark Singin-btn">Singin</button>
-             <button type="button" class="btn btn-outline-dark SingUp-btn">SingUp</button>  
+             <button id="Start-btn" type="button" class="btn btn-dark Singin-btn">Start</button>  
           
            </div>
     </section>
@@ -308,6 +313,43 @@
 </div>
 </section>
 
+<!-- ******* Oreder Details Section ******* -->
+<section id="order-details-section">
+    <table id="customer-table Order-details-table" class="table table-hover ">
+        <caption>Oreder Details</caption>
+        <thead class="table-dark" >
+            <tr>
+                <th class="thead-tr">Order Id</th>
+                <th class="thead-tr">Date</th>
+                <th class="thead-tr">Item Code</th>
+                <th class="thead-tr">Item Name</th>
+                <th class="thead-tr">Customer Id</th>
+                <th class="thead-tr">Customer name</th>
+                <th class="thead-tr"> Qty </th>
+                <th class="thead-tr"> Total </th>
+                <th class="thead-tr"> Cash </th>
+                <th class="thead-tr">Discount</th>
+                <th class="thead-tr">Balance</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>O-001</td>
+                <td>2024-04-1</td>
+                <td>I001</td>
+                <td>Tomato Pitza</td>
+                <td>C002</td>
+                <td>Shanilka</td>
+                <td>1</td>
+                <td>1200.00</td>
+                <td>1500.00</td>
+                <td>150.00</td>
+                <td>450.00</td>
+            </tr>                    
+        </tbody>
+    </table>
+</section>
+
 <!-- JQuery  -->
 <script src="/Jquary/jquery-3.7.1.min.js"></script>
 <script>
@@ -323,8 +365,72 @@
         display:'none'
     });
 
-    
+    $('#order-details-section').css({
+        display:'none'
+    });
 
+    $('#header').css({
+        display: 'none'
+    });
+
+
+    // --------------- Start Button Jq
+    $('#Start-btn').on('click',()=>{
+        $('#customer-section').css({
+            display:'none'
+        });
+
+        $('#home-section').css({
+            display:'none'
+        });
+
+        $('#order-section').css({
+            display:'block'
+        });
+
+        $('#item-section').css({
+            display:'none'
+        });
+
+        $('#order-details-section').css({
+            display:'none'
+        });
+
+        $('#header').css({
+            display: 'block'
+        });
+    });
+
+
+    // ---------------  nav Home jq
+    $('#nav-home').on('click',()=>{
+        $('#customer-section').css({
+            display:'none'
+        });
+
+        $('#home-section').css({
+            display:'block'
+        });
+
+        $('#order-section').css({
+            display:'none'
+        });
+
+        $('#item-section').css({
+            display:'none'
+        });
+
+        $('#order-details-section').css({
+            display:'none'
+        });
+
+        $('#header').css({
+            display: 'none'
+        });
+    });
+
+
+    // ---------------  nav Customer jq
     $('#nav-customer').on('click',()=>{
         $('#customer-section').css({
             display:'block'
@@ -341,8 +447,18 @@
         $('#item-section').css({
             display:'none'
         });
+
+        $('#order-details-section').css({
+            display:'none'
+        });
+
+        $('#header').css({
+            display: 'block'
+        });
     });
 
+
+    // ---------------  nav Item jq
     $('#nav-item').on('click',()=>{
         $('#item-section').css({
             display:'block',
@@ -359,8 +475,18 @@
         $('#order-section').css({
             display:'none',
         });
+
+        $('#order-details-section').css({
+            display:'none'
+        });
+
+        $('#header').css({
+            display: 'block'
+        });
     });
 
+
+    // ---------------  nav Order jq
     $('#nav-order').on('click',()=>{
         $('#order-section').css({
             display:'block',
@@ -376,6 +502,42 @@
 
         $('#item-section').css({
             display:'none'
+        });
+
+        $('#order-details-section').css({
+            display:'none'
+        });
+
+        $('#header').css({
+            display: 'block'
+        });
+    });
+
+
+    // ---------------  nav Order Details jq
+    $('#nav-order-details').on('click',()=>{
+        $('#order-section').css({
+            display:'none',
+        });
+
+        $('#home-section').css({
+            display:'none'
+        });
+
+        $('#customer-section').css({
+            display:'none'
+        });
+
+        $('#item-section').css({
+            display:'none'
+        });
+
+        $('#order-details-section').css({
+            display:'block'
+        });
+
+        $('#header').css({
+            display: 'block'
         });
     });
 
