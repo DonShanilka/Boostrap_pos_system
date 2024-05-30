@@ -4,3 +4,4 @@ export var orders = [];
 export var order_details = [];
 
 
+console.log(customers);

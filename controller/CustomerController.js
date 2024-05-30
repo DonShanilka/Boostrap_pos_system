@@ -4,7 +4,7 @@ import { CustomerModel } from "../model/CustomerModel.js";
 var customerIndex;
 
 // Details Save Customer
-$('#customer-add').on('click', () => {
+$('#customer_btn>#customer-add').on('click', () => {
   var custId = $('#customer-id').val();
   var custName = $('#customer-name').val();
   var custAddress = $('#customer-address').val();
