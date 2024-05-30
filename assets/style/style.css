@@ -1,80 +1,104 @@
 * {
- top: 0;
- padding: 0;
- margin: 0;
- box-sizing: border-box;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
- background-color: #d3d3d3;
+    background-color: #d3d3d3;
 }
 
 .navbar {
- color: rgb(255, 153, 0);
- /* font-weight: bold; */
+    color: rgb(255, 153, 0);
+    /* font-weight: bold; */
 }
 
 .rect {
- position: absolute;
- left: 0;
- right: 0;
- height: 0;
- top: 15%;
- margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 0;
+    top: 15%;
+    margin: auto;
 
- height: 82%;
- width: 97%;
- background-color: rgb(240, 240, 240);
+    height: 82%;
+    width: 97%;
+    background-color: rgb(240, 240, 240);
 }
 
 #customer-add {
- position: absolute;
- top: 47%;
- right: 1.5%;
- border-radius: 0;
- z-index: 1;
+    position: absolute;
+    top: 47%;
+    right: 1.5%;
+    border-radius: 0;
+    z-index: 1;
+}
+
+#customer-update {
+    position: absolute;
+    top: 47%;
+    right: 6%;
+    border-radius: 0;
+    z-index: 1;
+}
+
+#customer-delete {
+    position: absolute;
+    top: 47%;
+    right: 12%;
+    border-radius: 0;
+    z-index: 1;
+}
+
+#customer-reset {
+    position: absolute;
+    top: 47%;
+    right: 17.5%;
+    border-radius: 0;
+    z-index: 1;
 }
 
 #customer-table {
- position: absolute;
- bottom: 5%;
- top: 70%;
- left: 0;
- right: 0;
- margin: auto;
+    position: absolute;
+    bottom: 5%;
+    top: 70%;
+    left: 0;
+    right: 0;
+    margin: auto;
 
- height: 30%;
- width: 97%;
+    height: 30%;
+    width: 97%;
 }
 
 .customer-forms {
- position: absolute;
- height: 40%;
- width: 97%;
- background-color: #ffffff;
+    position: absolute;
+    height: 40%;
+    width: 97%;
+    background-color: #ffffff;
 
- top: 4%;
- left: 0;
- right: 0;
- margin: auto;
+    top: 4%;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .customer-serch-title {
- position: absolute;
- height: 13%;
- width: 48%;
- background-color: rgb(255, 174, 0);
- z-index: 1;
+    position: absolute;
+    height: 13%;
+    width: 48%;
+    background-color: rgb(255, 174, 0);
+    z-index: 1;
 }
 
 .customer-details-title {
- position: absolute;
- height: 13%;
- width: 48%;
- background-color: rgb(255, 174, 0);
- z-index: 1;
+    position: absolute;
+    height: 13%;
+    width: 48%;
+    background-color: rgb(255, 174, 0);
+    z-index: 1;
 
- left: 52%;
+    left: 52%;
 }
 
 .lable-name {
@@ -113,7 +137,7 @@ body {
     position: absolute;
     left: 0%;
     top: 125px;
-    
+
     width: 90%;
 }
 
@@ -127,7 +151,7 @@ body {
     position: absolute;
     left: 0%;
     top: 195px;
-    
+
     width: 90%;
 }
 
@@ -141,7 +165,7 @@ body {
     border-radius: 0;
     left: 0;
     top: 120px;
-    
+
     width: 15vw;
 }
 
@@ -185,7 +209,7 @@ body {
     height: 0;
     top: 10%;
     margin: auto;
-   
+
     height: 82%;
     width: 97%;
     background-color: rgb(255, 255, 255);
@@ -198,7 +222,7 @@ body {
     height: 0;
     top: 10%;
     margin: auto;
-   
+
     height: 82%;
     width: 97%;
     background-color: rgb(255, 255, 255);
@@ -215,7 +239,7 @@ body {
     position: absolute;
     top: 10%;
     left: 20%;
-    width: 15%; 
+    width: 15%;
 }
 
 .o-customer-id {
@@ -278,13 +302,13 @@ body {
 
 .place-order-cal {
     position: absolute;
- height: 4%;
- width: 40%;
- background-color: rgb(255, 174, 0);
- z-index: 1;
+    height: 4%;
+    width: 40%;
+    background-color: rgb(255, 174, 0);
+    z-index: 1;
 
- top: 19%;
- left: 58%;
+    top: 19%;
+    left: 58%;
 }
 
 .cash {
@@ -312,7 +336,7 @@ body {
     position: absolute;
     top: 35%;
     left: 58%;
-    width: 15%; 
+    width: 15%;
 }
 
 .balence {
@@ -333,6 +357,6 @@ body {
     position: absolute;
     top: 45%;
     left: 94%;
-    
+
     background-color: rgb(0, 56, 109);
 }
