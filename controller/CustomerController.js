@@ -3,7 +3,15 @@ import { CustomerModel } from "../model/CustomerModel.js";
 
 var customerIndex;
 
-// Details Save Customer
+// clearField
+function clearInputFields() {
+  $('#customer-id').val('');
+  $('#customer-name').val('');
+  $('#customer-address').val('');
+  $('#customer-email').val('');
+}
+
+//  Save Customer
 $('#customer_btn>#customer-add').on('click', () => {
   var custId = $('#customer-id').val();
   var custName = $('#customer-name').val();
@@ -19,7 +27,18 @@ $('#customer_btn>#customer-add').on('click', () => {
    <td class="cust-name">${custName}</td>
    <td class="cust-address">${custAddress}</td>
    <td class="cust-email">${custEmail}</td>
+   <td> <button type="button" class="btn btn-danger deleteBtn">Danger</button> </td>
   </tr>`;
   $('#cust-table').append(record);
+  clearInputFields();
 
+});
+
+
+// Delete Data
+$(document).on('click', '.deleteBtn', function () {
+  var row = $(this).closest('tr');
+  var custId = row.data('id');
+  customers = customers.filter(cust => cust.id !== custId);
+  row.remove();
 });
