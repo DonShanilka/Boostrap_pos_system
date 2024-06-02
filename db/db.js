@@ -1,4 +1,4 @@
-export let customers = [];
-export let items = [];
-export let orders = [];
-export let order_details = [];
+export var customer_db = [];
+export var item_db = [];
+export var order_db = [];
+export var order_details_db = [];

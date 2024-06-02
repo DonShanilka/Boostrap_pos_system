@@ -1,0 +1,105 @@
+/*.home1{*/
+/*    width: 100%;*/
+/*    height: 874px;*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    align-items: center;*/
+/*    flex-wrap: wrap;*/
+/*}*/
+
+/*.chart-card{*/
+/*    height: fit-content;*/
+/*    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.03);*/
+/*    border: none;*/
+/*    border-radius: 30px;*/
+/*    padding: 25px;*/
+/*    background-color: #ffffff;*/
+/*}*/
+
+/*.chart-title{*/
+/*    font-size: 24px;*/
+/*    color: var(--bs-black);*/
+/*}*/
+
+/*.chart-card div{*/
+/*    width: 550px;*/
+/*}*/
+
+/*#lineChart{*/
+/*    width: 800px !important;*/
+/*    height: 400px !important;*/
+/*}*/
+
+/*.card{*/
+/*    background-color: #4c70de;*/
+/*    border-radius: 10px;*/
+/*}*/
+
+.banner {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("https://static.vecteezy.com/system/resources/previews/036/324/445/non_2x/order-clothes-from-online-clothing-store-using-credit-card-e-commerce-mobile-shopping-digital-or-virtual-marketplace-online-shopping-internet-store-flat-illustration-for-landing-page-web-design-vector.jpg");
+    background-size: cover;
+    background-position: center ;
+}
+.banner img {
+    width: 100%;
+    height: 95vh;
+}
+.banner div:first-child{
+    width: 100%;
+    height: 70vh;
+    background: 50%;
+    background-color: black;
+}
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1 {
+    font-size: 70px;
+    margin-top: 80px;
+    color: black;
+}
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+#buttonCon {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 7px solid #0ba7d7;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.span {
+    background: #0f95dc;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+#buttonCon:hover span {
+    width: 100%;
+}
+#buttonCon:hover{
+    border: none;
+    border: 7px solid #0ba7d7;
+    background: #07b2fb;
+}
