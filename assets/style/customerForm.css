@@ -7,6 +7,24 @@
     background-color: rgb(223, 223, 223);
 }
 
+.cust-h3 {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    font-size: larger;
+    color: #ff6600;
+}
+
+#searchField2 {
+    position: absolute;
+    right: 4%;
+}
+
+#search2 {
+    position: absolute;
+    right: 23%;
+}
+
 #customerId {
     width: 30%;
 }
@@ -38,7 +56,6 @@
     left: 1%;
     width: 98%;
 }
-
 
 .container{
     width: fit-content;
