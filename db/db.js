@@ -1,7 +1,4 @@
-export var customers = [];
-export var items = [];
-export var orders = [];
-export var order_details = [];
-
-
-console.log(customers);
+export let customers = [];
+export let items = [];
+export let orders = [];
+export let order_details = [];
