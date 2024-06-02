@@ -73,64 +73,58 @@
   <!-- ********************************************** Customer Page ************************************************* -->
 <main id="customer" class="customer">
   <div class="customer1">
-    <div class="col-md-4 mt-3">
-      <div class="card" id="customerManage">
-        <div class="card-header text-center gradient-text">
-          <h3>Customer Manage</h3>
-        </div>
-        <form>
-          <div class="m-3 col-md-11">
-            <label for="customerId" class="form-label">Customer ID :</label>
-            <input type="text" class="form-control" id="customerId">
-          </div>
-          <div class="m-3 col-md-11">
-            <label for="customerName" class="form-label">Customer Name :</label>
-            <input type="text" class="form-control" id="customerName">
-          </div>
-          <div class="m-3 col-md-11">
-            <label for="address" class="form-label">Address :</label>
-            <input type="email" class="form-control" id="address">
-          </div>
-          <div class="m-3 col-md-11">
-            <label for="mobile" class="form-label">Mobile :</label>
-            <input type="tel" class="form-control" id="mobile">
-          </div>
-          <div class="m-3 col-md-11" id="customer_btn">
-            <button type="button" class="btn btn-outline-success">Submit</button>
-            <button type="button" class="btn btn-outline-primary">Update</button>
-            <button type="button" class="btn btn-outline-danger">Delete</button>
-            <button type="button" class="btn btn-outline-warning">Reset</button>
-          </div>
-        </form>
-      </div>
+    <div class="card-header text-center gradient-text">
+      <h3>Customer Manage</h3>
     </div>
 
-    <div class="col-md-4 mt-3">
-      <div class="card" id="viewCustomer">
-        <div class="card-header text-center gradient-text">
-          <h3>View Customers</h3>
-        </div>
+    <form class="d-flex search-form-" role="search">
+      <input id="searchField2" class="form-control me-3 searchField" type="search" placeholder="Search" aria-label="Search">
+      <button id="search2" class="btn btn-outline-success searchBtn" type="button">Search</button>
+    </form>
 
-        <form class="d-flex" role="search">
-          <input id="searchField2" class="form-control me-3 searchField" type="search" placeholder="Search" aria-label="Search">
-          <button id="search2" class="btn btn-outline-success searchBtn" type="button">Search</button>
-        </form>
-
-        <div class="col m-3">
-          <table class="table" id="customerTable">
-            <thead class="table-color">
-            <tr>
-              <th scope="col">Customer ID</th>
-              <th scope="col">Customer Name</th>
-              <th scope="col">Address</th>
-              <th scope="col">Mobile</th>
-            </tr>
-            </thead>
-            <tbody id="customer-tbl-body"></tbody>
-          </table>
+    <div class="form-main-div">
+      <form>
+        <div class="m-3 col-md-11">
+          <label for="customerId" class="form-label">Customer ID :</label>
+          <input type="text" class="form-control" id="customerId">
         </div>
-      </div>
+        <div class="m-3 col-md-11">
+          <label for="customerName" class="customer-name-lable">Customer Name :</label>
+          <input type="text" class="form-control" id="customerName">
+        </div>
+        <div class="m-3 col-md-11">
+          <label for="address" class="form-label">Address :</label>
+          <input type="email" class="form-control" id="address">
+        </div>
+        <div class="m-3 col-md-11">
+          <label for="mobile" class="form-label">Mobile :</label>
+          <input type="tel" class="form-control" id="mobile">
+        </div>
+        <div class="m-3 col-md-11" id="customer_btn">
+          <button type="button" class="btn btn-outline-success">Submit</button>
+          <button type="button" class="btn btn-outline-primary">Update</button>
+          <button type="button" class="btn btn-outline-danger">Delete</button>
+          <button type="button" class="btn btn-outline-warning">Reset</button>
+        </div>
+      </form>
+
+        <table class="table" id="customerTable">
+          <thead class="table-color">
+          <tr>
+            <th scope="col">Customer ID</th>
+            <th scope="col">Customer Name</th>
+            <th scope="col">Address</th>
+            <th scope="col">Mobile</th>
+          </tr>
+          </thead>
+          <tbody id="customer-tbl-body"></tbody>
+        </table>
+
     </div>
+
+        
+          
+      
   </div>
 </main>
 
