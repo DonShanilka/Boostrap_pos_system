@@ -1,3 +1,29 @@
+.item-main-div {
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    width: 90%;
+    height: 75%;
+    background-color: rgb(231, 231, 231);
+}
+
+#itemId {
+    width: 30%;
+}
+
+.qty-lable {
+    position: absolute;
+    top: 3%;
+    left: 40%;
+}
+
+#qty {
+    width: 53%;
+    position: absolute;
+    left: 40%;
+    top: 8%;
+}
+
 .container{
     width: fit-content;
     height: auto;

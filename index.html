@@ -119,11 +119,7 @@
           <tbody id="customer-tbl-body"></tbody>
         </table>
 
-    </div>
-
-        
-          
-      
+    </div>  
   </div>
 </main>
 
@@ -131,51 +127,41 @@
 <!-- *********************************************** Item Page *************************************************** -->
 <main id="item" class="item">
   <div class="item1">
-
-    <div class="col-md-4 mt-3">
-      <div class="card" id="itemManage">
-        <div class="card-header text-center gradient-text">
+    
           <h3>Item Manage</h3>
-        </div>
-        <form>
-          <div class="m-3 col-md-11">
-            <label for="itemId" class="form-label">item code :</label>
-            <input type="text" class="form-control" id="itemId">
-          </div>
-          <div class="m-3 col-md-11">
-            <label for="itemName" class="form-label">item Description :</label>
-            <input type="text" class="form-control" id="itemName">
-          </div>
-          <div class="m-3 col-md-11">
-            <label for="address" class="form-label">Price :</label>
-            <label for="price"></label><input type="email" class="form-control" id="price">
-          </div>
-          <div class="m-3 col-md-11">
-            <label for="mobile" class="form-label">Qty :</label>
-            <label for="qty"></label><input type="tel" class="form-control" id="qty">
-          </div>
-          <div class="m-3 col-md-11" id="item_btn">
-            <button type="button" class="btn btn-outline-success">Submit</button>
-            <button type="button" class="btn btn-outline-primary">Update</button>
-            <button type="button" class="btn btn-outline-danger">Delete</button>
-            <button type="reset" class="btn btn-outline-warning">Reset</button>
-          </div>
-        </form>
-      </div>
-    </div>
 
-    <div class="col-md-4 mt-3">
-      <div class="card" id="viewItem">
-        <div class="card-header text-center gradient-text">
-          <h3>View Items</h3>
-        </div>
+          <form class="d-flex" role="search">
+            <input id="searchField3" class="form-control me-3 searchField" type="search" placeholder="Search" aria-label="Search">
+            <button id="search3" class="btn btn-outline-success searchBtn" type="button">Search</button>
+          </form>
+  
+       
+        <div class="item-main-div">
+          <form>
+            <div class="m-3 col-md-11">
+              <label for="itemId" class="form-label">item code :</label>
+              <input type="text" class="form-control" id="itemId">
+            </div>
+            <div class="m-3 col-md-11">
+              <label for="itemName" class="form-label">item Description :</label>
+              <input type="text" class="form-control" id="itemName">
+            </div>
+            <div class="m-3 col-md-11">
+              <label for="address" class="form-label">Price :</label>
+              <label for="price"></label><input type="email" class="form-control" id="price">
+            </div>
+            <div class="m-3 col-md-11">
+              <label for="mobile" class="form-label qty-lable">Qty :</label>
+              <label for="qty"></label><input type="tel" class="form-control" id="qty">
+            </div>
+            <div class="m-3 col-md-11" id="item_btn">
+              <button type="button" class="btn btn-outline-success">Submit</button>
+              <button type="button" class="btn btn-outline-primary">Update</button>
+              <button type="button" class="btn btn-outline-danger">Delete</button>
+              <button type="reset" class="btn btn-outline-warning">Reset</button>
+            </div>
+          </form>
 
-        <form class="d-flex" role="search">
-          <input id="searchField3" class="form-control me-3 searchField" type="search" placeholder="Search" aria-label="Search">
-          <button id="search3" class="btn btn-outline-success searchBtn" type="button">Search</button>
-        </form>
-
-        <div class="col m-3">
           <table class="table" id="itemTable">
             <thead class="table-color">
             <tr>
@@ -187,9 +173,9 @@
             </thead>
             <tbody id="item-tbl-body"></tbody>
           </table>
+
         </div>
-      </div>
-    </div>
+
   </div>
 </main>
 
