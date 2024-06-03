@@ -7,6 +7,14 @@
     background-color: rgb(231, 231, 231);
 }
 
+.item-h3 {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    font-size: larger;
+    color: #ff6600;
+}
+
 #itemId {
     width: 30%;
 }
@@ -22,6 +30,28 @@
     position: absolute;
     left: 40%;
     top: 8%;
+}
+
+#item_btn {
+    position: absolute;
+    top: 44.4%;
+}
+
+#itemTable {
+    position: absolute;
+    top: 65%;
+    left: 1%;
+    width: 98%;
+}
+
+#searchField3 {
+    position: absolute;
+    right: 4%;
+}
+
+#search3 {
+    position: absolute;
+    right: 23%;
 }
 
 .container{
