@@ -83,6 +83,51 @@
     right: 4%;
 }
 
+#item_code1 {
+    position: absolute;
+    width: 30%; 
+    top: 13%;
+}
+
+#item_name1 {
+    position: absolute;
+    width: 50%; 
+    top: 13%;
+    right: 6%;
+}
+
+#price1 {
+    position: absolute;
+    width: 30%; 
+    top: 33%;
+}
+
+#qty_on_hand {
+    position: absolute;
+    width: 50%; 
+    top: 33%;
+    right: 6%;
+}
+
+#getQty {
+    position: absolute;
+    width: 30%; 
+    top: 53%;
+}
+
+#order_item_btn {
+    position: absolute;
+    top: 75%;
+    right: 6%;
+}
+
+#item-order-table {
+    width: 100%;
+    position: absolute;
+    top: 72%;
+    
+}
+
 .col-lg-6{
     width: 100%;
 }

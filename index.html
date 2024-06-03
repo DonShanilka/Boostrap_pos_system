@@ -243,25 +243,20 @@
         
         <div class="order-2nd-div">
           <div class="m-3 col-md-11">
-            <label for="item_code1" class="form-label">Item Code</label>
             <select class="form-select" aria-label="Disabled select example" id="item_code1">
               <option selected>Select Item Code</option>
             </select>
           </div>
           <div class="m-3 col-md-11">
-            <label for="item_name1" class="form-label">Item Name</label>
             <input type="text" class="form-control" id="item_name1" placeholder="Item Name Here" disabled>
           </div>
           <div class="m-3 col-md-11">
-            <label for="price1" class="form-label">Price</label>
             <input type="number" class="form-control" id="price1" placeholder="Price Here" disabled>
           </div>
           <div class="m-3 col-md-11">
-            <label for="qty_on_hand" class="form-label">Qty on Hand</label>
             <input type="number" class="form-control" id="qty_on_hand" placeholder="Qty on hand Here" disabled>
           </div>
           <div class="m-3 col-md-11">
-            <label for="getQty" class="form-label">Getting Qty</label>
             <input type="number" class="form-control" id="getQty" placeholder="Qty Here">
           </div>
 
@@ -271,7 +266,9 @@
             <button id="removeBtn" type="button" class="btn btn-outline-danger">Remove</button>
             <button id="resetItemDetailsBtn" type="reset" class="btn btn-outline-warning">Reset</button>
           </div>
+        </div>
 
+        <div class="order-table">
           <table class="table" id="item-order-table">
             <thead class="table-color">
             <tr>
@@ -284,8 +281,8 @@
             </thead>
             <tbody></tbody>
           </table>
-
         </div>
+
 </main>
 
 <!-- **************************************** Add OrderDetails page section *********************************************** -->
