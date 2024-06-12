@@ -1,13 +1,16 @@
 #navBar {
-    background-color: #007c0a !important; /* Add !important to override Bootstrap styles if needed */
+    background-color: #007c0a !important;
+    /* Add !important to override Bootstrap styles if needed */
     position: relative;
-}
-/* Optional: Change the text color of the navigation links */
-.navbar-nav .nav-link {
-    color: #bcffbc; /* Set the desired text color */
-    font-size: 22px;
+    height: 50px;
 }
 
+/* Optional: Change the text color of the navigation links */
+.navbar-nav .nav-link {
+    color: #bcffbc;
+    /* Set the desired text color */
+    font-size: 22px;
+}
 
 .navbar ul li {
     list-style: none;
@@ -15,26 +18,30 @@
     margin: 0 20px;
     position: relative;
 }
+
 .navbar ul li a {
-    text-decoration : none;
+    text-decoration: none;
     color: #bcffbc;
     text-transform: uppercase;
 }
-.navbar ul li::after{
+
+.navbar ul li::after {
     content: '';
     height: 3px;
     width: 0;
-    background: #084200;
-    color: black;
+    background: #1eff00;
+    color: rgb(0, 255, 0);
     position: absolute;
     left: 0;
-    bottom: -10px;
+    bottom: 10px;
     transition: 0.5s;
 }
+
 .navbar ul li:hover::after {
     width: 100%;
     color: rgb(21, 255, 0);
 }
+
 .navbar ul li a:hover {
     color: rgb(0, 255, 34);
 }
