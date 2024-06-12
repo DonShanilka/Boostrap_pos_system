@@ -1,19 +1,37 @@
-.order_details1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+#order-details-table {
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 50%;
 }
 
-#orderDetailsForm{
-    align-items: center;
-    width: 1200px;
-    background-color: #E5E5E5;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    right: 50%;
-    --bs-card-cap-padding-x: 32rem;
+.search-order-details {
+    position: absolute;
+    width: 30%;
+    top: 40%;
+    left: 6.5%;
 }
 
-#order-details-table{
-    width: 1000px;
+.searchField {
+    position: absolute;
+    right: 0%;
+}
+
+#search4 {
+    position: absolute;
+    left: 12%;
+    width: 17%;
+}
+
+.card-header {
+    position: absolute;
+    top: 45%;
+    right: 10%;
+    font-size: larger;
+    color: #ff6600;
+}
+
+.customer-count-lable {
+    position: absolute;
+
 }

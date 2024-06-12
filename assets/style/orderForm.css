@@ -6,7 +6,7 @@
     top: 20%;
 }
 
-.container{
+.container {
     width: fit-content;
     height: auto;
     background-color: #E5E5E5;
@@ -14,7 +14,7 @@
     height: 150vh;
 }
 
-.order1{
+.order1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -23,7 +23,7 @@
 
 #order_id {
     position: absolute;
-    width: 30%;  
+    width: 30%;
 }
 
 #order_date {
@@ -35,7 +35,7 @@
 
 #customer_id1 {
     position: absolute;
-    width: 30%;  
+    width: 30%;
 }
 
 #customer_name1 {
@@ -47,8 +47,8 @@
 
 #total {
     position: absolute;
-    width: 30%; 
-    top: 43%; 
+    width: 30%;
+    top: 43%;
 }
 
 #discount {
@@ -60,8 +60,8 @@
 
 #sub_total {
     position: absolute;
-    width: 30%; 
-    top: 60%; 
+    width: 30%;
+    top: 60%;
 }
 
 #Cash {
@@ -73,8 +73,8 @@
 
 #balance {
     position: absolute;
-    width: 30%; 
-    top: 75%; 
+    width: 30%;
+    top: 75%;
 }
 
 #order_btn {
@@ -85,33 +85,33 @@
 
 #item_code1 {
     position: absolute;
-    width: 30%; 
+    width: 30%;
     top: 13%;
 }
 
 #item_name1 {
     position: absolute;
-    width: 50%; 
+    width: 50%;
     top: 13%;
     right: 6%;
 }
 
 #price1 {
     position: absolute;
-    width: 30%; 
+    width: 30%;
     top: 33%;
 }
 
 #qty_on_hand {
     position: absolute;
-    width: 50%; 
+    width: 50%;
     top: 33%;
     right: 6%;
 }
 
 #getQty {
     position: absolute;
-    width: 30%; 
+    width: 30%;
     top: 53%;
 }
 
@@ -125,77 +125,82 @@
     width: 100%;
     position: absolute;
     top: 72%;
-    
+
 }
 
-.col-lg-6{
+.col-lg-6 {
     width: 100%;
 }
 
-.btn-outline-success{
+.btn-outline-success {
     border: 1px solid #4c70de;
     color: #0006ff;
 }
 
-.btn-outline-success:hover{
+.btn-outline-success:hover {
     background-color: #4c70de;
     border: 1px solid #0006ff;
 }
 
-.btn-outline-primary{
+.btn-outline-primary {
     border: 1px solid #52B788;
     color: #52B788;
 }
 
-.btn-outline-primary:hover{
+.btn-outline-primary:hover {
     background-color: #52B788;
     border: 1px solid #52B788;
 }
 
-.btn-outline-danger{
+.btn-outline-danger {
     border: 1px solid #FF5C8A;
     color: #FF5C8A;
 }
 
-.btn-outline-danger:hover{
+.btn-outline-danger:hover {
     background-color: #FF5C8A;
     border: 1px solid #FF5C8A;
 }
 
-.table-color>tr>th{
+.table-color>tr>th {
     background-color: #4c70de;
     color: #FFFFFF;
 }
 
-.table{
+.table {
     width: 500px;
 }
 
-.card{
+.card {
     width: 550px;
     background-color: #E5E5E5;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-#order_item_btn{
+#order_item_btn {
     margin-left: 20px;
 }
 
-#order_btn{
+#order_btn {
     margin: 20px;
 }
 
-.searchField{
+.searchField {
     width: 300px;
     margin: 30px;
+    position: absolute;
+    top: 9%;
 }
 
-.searchBtn{
+.searchBtn {
     margin: 30px;
     margin-left: 1px;
+    position: absolute;
+    top: 9%;
+    right: 19%;
 }
 
-.d-flex{
+.d-flex {
     justify-content: right;
 }
 

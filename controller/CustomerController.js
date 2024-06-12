@@ -219,3 +219,16 @@ reset.on('click', function (e) {
   update.prop("disabled", true);
 });
 
+
+let customerCount = 0;
+
+document.getElementById("customerSubmit").onclick = function () {
+  customerCount = customer_db.length;
+  document.getElementById("customerCount-lable").innerHTML = customerCount
+}
+
+document.getElementById("customerDelete").onclick = function () {
+  customerCount = customer_db.length;
+  document.getElementById("customerCount-lable").innerHTML = customerCount
+}
+

@@ -140,7 +140,6 @@ const myFunction4 = function () {
 
     const loadingScreen6 = document.querySelector('.order_Details');
     loadingScreen6.style.display = 'block';
-
 }
 
 $("#start").eq(0).on('click', function () {

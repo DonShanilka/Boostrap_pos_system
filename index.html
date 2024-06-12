@@ -109,8 +109,8 @@
           <input type="tel" class="form-control" id="mobile">
         </div>
         <div class="m-3 col-md-11" id="customer_btn">
-          <button type="button" class="btn btn-outline-success">Submit</button>
-          <button type="button" class="btn btn-outline-primary">Update</button>
+          <button type="button" id="customerSubmit" class="btn btn-outline-success">Submit</button>
+          <button type="button" id="customerDelete" class="btn btn-outline-primary">Update</button>
           <button type="button" class="btn btn-outline-danger">Delete</button>
           <button type="button" class="btn btn-outline-warning">Reset</button>
         </div>
@@ -298,14 +298,17 @@
 <main id="order_Details" class="order_Details">
   <div class="order_details1">
     <div class="col-md-4 mt-3">
-      <div class="card" id="orderDetailsForm">
         <div class="card-header text-center gradient-text">
           <h3>Order Details</h3>
         </div>
 
-        <form class="d-flex" role="search">
+        <div>
+          <label id="customerCount-lable">0</label>
+        </div>
+
+        <form class="d-flex search-order-details" role="search">
           <input id="searchField4" class="form-control me-3 searchField" type="search" placeholder="Search" aria-label="Search">
-          <button id="search4" class="btn btn-outline-success searchBtn" type="button">Search</button>
+          <button id="search4" class="btn btn-outline-success searchBtn searchBtn-details" type="button">Search</button>
         </form>
 
         <div class="col m-3">
@@ -325,7 +328,6 @@
             <tbody id="order-details-tbody"></tbody>
           </table>
         </div>
-      </div>
     </div>
   </div>
 </main>
