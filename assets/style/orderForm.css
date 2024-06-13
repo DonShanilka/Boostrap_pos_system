@@ -2,8 +2,10 @@
     position: absolute;
     width: 50%;
     height: 50%;
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(231, 231, 231);
     top: 20%;
+    left: 5%;
+    z-index: 1;
 }
 
 .container {
@@ -29,8 +31,8 @@
 #order_date {
     position: absolute;
     width: 40%;
-    right: 6%;
-    top: 13%;
+    right: 15%;
+    top: 12%;
 }
 
 #customer_id1 {
@@ -41,21 +43,21 @@
 #customer_name1 {
     position: absolute;
     width: 40%;
-    right: 6%;
+    right: 15%;
     top: 29%;
 }
 
 #total {
     position: absolute;
     width: 30%;
-    top: 43%;
+    top: 44%;
 }
 
 #discount {
     position: absolute;
     width: 40%;
-    right: 6%;
-    top: 43%;
+    right: 15%;
+    top: 44%;
 }
 
 #sub_total {
@@ -67,7 +69,7 @@
 #Cash {
     position: absolute;
     width: 40%;
-    right: 6%;
+    right: 15%;
     top: 60%;
 }
 
@@ -80,13 +82,15 @@
 #order_btn {
     position: absolute;
     top: 75%;
-    right: 4%;
+    right: 13%;
 }
 
 #item_code1 {
     position: absolute;
     width: 30%;
     top: 13%;
+    left: 10%;
+    z-index: 1;
 }
 
 #item_name1 {
@@ -100,6 +104,8 @@
     position: absolute;
     width: 30%;
     top: 33%;
+    left: 10%;
+    z-index: 1;
 }
 
 #qty_on_hand {
@@ -113,6 +119,8 @@
     position: absolute;
     width: 30%;
     top: 53%;
+    left: 10%;
+    z-index: 1;
 }
 
 #order_item_btn {
@@ -122,9 +130,10 @@
 }
 
 #item-order-table {
-    width: 100%;
+    width: 90%;
     position: absolute;
     top: 72%;
+    left: 5%;
 
 }
 
@@ -163,8 +172,8 @@
 }
 
 .table-color>tr>th {
-    background-color: #4c70de;
-    color: #FFFFFF;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .table {
@@ -210,8 +219,8 @@
     position: absolute;
     width: 50%;
     height: 50%;
-    background-color: rgb(221, 221, 221);
-    left: 50%;
+    background-color: rgb(231, 231, 231);
+    right: 5%;
     top: 20%;
 }
 
