@@ -69,7 +69,7 @@ body {
 .email-forms {
  position: absolute;
  width: 100%;
- height: 1005;
+ height: 100%;
  top: 30%;
  left: 10%;
  font-size: large;
@@ -79,31 +79,60 @@ body {
 
 .email-forms>.email-input {
  position: absolute;
- width: 30%;
- height: 100%;
- left: 25%;
- top: 40%;
+ width: 40%;
+ height: 6%;
+ left: 0%;
+ top: 6%;
  border: 1px rgb(187, 187, 187) solid;
  border-radius: 5px;
+ background-color: rgba(255, 255, 255, 0.199);
 }
 
 .password-forms {
  position: absolute;
- top: 40%;
+ width: 100%;
+ height: 100%;
+ top: 43%;
  left: 10%;
  font-size: large;
  font-weight: bold;
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.password-forms>.Password-input {
+ position: absolute;
+ width: 40%;
+ height: 6%;
+ left: 0%;
+ top: 6%;
+ border: 1px rgb(187, 187, 187) solid;
+ border-radius: 5px;
+ background-color: rgba(255, 255, 255, 0.199);
+}
+
 .ConfirmePassword-froms {
  position: absolute;
- top: 50%;
+ width: 100%;
+ height: 100%;
+ top: 56%;
  left: 10%;
  font-size: large;
  font-weight: bold;
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.ConfirmePassword-froms>.cm-Password-input {
+ position: absolute;
+ width: 40%;
+ height: 6%;
+ left: 0%;
+ top: 6%;
+ border: 1px rgb(187, 187, 187) solid;
+ border-radius: 5px;
+ background-color: rgba(255, 255, 255, 0.199);
+}
+
+
 
 .email-text {
  position: absolute;
