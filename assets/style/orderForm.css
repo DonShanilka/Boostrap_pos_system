@@ -199,20 +199,36 @@
     margin: 30px;
     position: absolute;
     top: 9%;
+    left: 73%;
 }
 
-.searchBtn {
+.searchBtn-order {
     margin: 30px;
     margin-left: 1px;
     position: absolute;
     top: 9%;
-    right: 19%;
+    right: 24%;
 }
+
+/* .searchBtn {
+    margin: 30px;
+    margin-left: 1px;
+    position: absolute;
+    top: 9%;
+    right: 26%;
+} */
 
 .d-flex {
     justify-content: right;
 }
 
+.order-h3 {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    font-size: larger;
+    color: #ff6600;
+}
 
 /* ***************** Second Div Css ****************** */
 .order-2nd-div {
