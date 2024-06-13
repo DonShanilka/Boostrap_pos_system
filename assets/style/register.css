@@ -132,13 +132,35 @@ body {
  background-color: rgba(255, 255, 255, 0.199);
 }
 
+.btn-success {
+ position: absolute;
+ top: 75%;
+ left: 10%;
+ font-size: medium;
+ font-weight: 600;
+ background-color: rgb(0, 168, 65);
+ border: 1px rgb(0, 168, 50) solid;
+}
 
+.btn-danger {
+ position: absolute;
+ top: 75%;
+ left: 20%;
+ font-size: medium;
+ font-weight: 600;
+ background-color: rgb(255, 0, 0);
+ border: 1px rgb(155, 0, 0) solid;
+}
+
+.submit-btn:hover {
+ background-color: rgb(0, 177, 68);
+}
 
 .email-text {
  position: absolute;
- bottom: 5%;
+ bottom: 1%;
  left: 10%;
  font-size: small;
- /* font-weight: bold; */
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ color: rgb(155, 0, 0);
 }
