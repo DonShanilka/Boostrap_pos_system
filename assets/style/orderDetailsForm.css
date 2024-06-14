@@ -8,10 +8,19 @@
 .search-order-details {
     position: absolute;
     width: 30%;
+    height: 30%;
     top: 40%;
     left: 6.5%;
 }
 
+.searchBtn-orderdetails {
+    background-color: #008cff;
+    color: aliceblue;
+    position: absolute;
+    top: 22%;
+}
+
+/* item,customer */
 .searchBtn {
     position: absolute;
     top: 13%;
@@ -33,7 +42,7 @@
 
 .card-header {
     position: absolute;
-    top: 45%;
+    top: 48%;
     right: 10%;
     font-size: larger;
     color: #ff6600;

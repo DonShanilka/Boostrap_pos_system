@@ -208,6 +208,8 @@
     position: absolute;
     top: 9%;
     right: 24%;
+    background-color: #008cff;
+    color: aliceblue;
 }
 
 /* .searchBtn {
