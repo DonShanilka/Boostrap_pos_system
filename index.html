@@ -296,22 +296,34 @@
 
 <!-- **************************************** Add OrderDetails page section *********************************************** -->
 <main id="order_Details" class="order_Details">
+
   <div class="order_details1">
     <div class="col-md-4 mt-3">
         <div class="card-header text-center gradient-text">
           <h3>Order Details</h3>
         </div>
 
-        <div>
+        <div class="total-customer-div">
           <label id="customerCount-lable">0</label>
+          <label id="customer-total-name">Total Customer</label>
+        </div>
+
+        <div class="total-item-div">
+          <label id="item-count-lable">0</label>
+          <label id="item-total-name">Total Item</label>
+        </div>
+
+        <div class="total-order-div">
+          <label id="order-lable">0</label>
+          <label id="order-total-name">Total Orders</label>
         </div>
 
         <form class="d-flex search-order-details" role="search">
-          <input id="searchField4" class="form-control me-3 searchField" type="search" placeholder="Search" aria-label="Search">
+          <input id="searchField4" class="form-control me-3 searchField searchField-details" type="search" placeholder="Search" aria-label="Search">
           <button id="search4" class="btn btn-outline-success searchBtn searchBtn-details" type="button">Search</button>
         </form>
 
-        <div class="col m-3">
+        <div class="col m-3 gray-div">
           <table class="table" id="order-details-table">
             <thead class="table-color">
             <tr>

@@ -1,8 +1,8 @@
 #order-details-table {
-    width: 80%;
+    width: 100%;
     position: absolute;
-    left: 10%;
-    top: 50%;
+    left: 0%;
+    top: 0%;
 }
 
 .search-order-details {
@@ -12,9 +12,9 @@
     left: 6.5%;
 }
 
-.searchField {
+.searchField-details {
     position: absolute;
-    right: 0%;
+    left: 25%;
 }
 
 #search4 {
@@ -31,7 +31,45 @@
     color: #ff6600;
 }
 
-.customer-count-lable {
+#customer-count-lable {
     position: absolute;
+    color: red;
+}
 
+.total-customer-div {
+    position: absolute;
+    background: rgb(230, 230, 230);
+    width: 20%;
+    height: 15%;
+    left: 10%;
+    top: 20%;
+    border-radius: 5px;
+}
+
+.total-item-div {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 20%;
+    height: 15%;
+    background: rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+.total-order-div {
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    width: 20%;
+    height: 15%;
+    background: rgb(230, 230, 230);
+}
+
+.gray-div {
+    position: absolute;
+    top: 50%;
+    left: 9%;
+    width: 80%;
+    height: 40%;
+    background: rgb(230, 230, 230);
 }
