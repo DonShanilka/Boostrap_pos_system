@@ -17,7 +17,7 @@ body {
 
 .loading-page {
     z-index: 20;
-    background: linear-gradient(to bottom, #001661 50%, #dde4f1 100%);
+    background: #363636;
     width: 1920px;
     height: 944px;
     display: flex;
@@ -45,7 +45,7 @@ body {
     position: absolute;
     top: 130px;
     left: 0;
-    background: #ffc700;
+    background: #009c22;
     border: none;
     height: 5px;
 }
@@ -63,5 +63,5 @@ body {
 .loading-page .counter .color {
     width: 0px;
     overflow: hidden;
-    color: #2b3092;
+    color: #ffffff;
 }

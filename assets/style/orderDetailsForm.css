@@ -12,6 +12,14 @@
     left: 6.5%;
 }
 
+.searchBtn {
+    position: absolute;
+    top: 13%;
+    right: 80%;
+    background-color: #008cff;
+    color: aliceblue;
+}
+
 .searchField-details {
     position: absolute;
     left: 25%;

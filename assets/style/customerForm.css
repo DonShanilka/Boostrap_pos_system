@@ -112,3 +112,9 @@
 .customer-table-colour {
     color: #00620d;
 }
+
+.searchBtn {
+    position: absolute;
+    left: 69.5%;
+    width: 5%;
+}

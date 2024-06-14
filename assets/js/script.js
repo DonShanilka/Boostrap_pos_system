@@ -149,40 +149,45 @@ $("#start").eq(0).on('click', function () {
 
 $("#home_page").eq(0).on('click', function () {
     myFunction();
-    $("#home_page").eq(0).css("color", "black");
-    $("#customer_page").eq(0).css("color", "white");
-    $("#item_page").eq(0).css("color", "white");
-    $("#order_page").eq(0).css("color", "white");
+    $("#home_page").eq(0).css("color", "#004409");
+    $("#customer_page").eq(0).css("color", "black");
+    $("#item_page").eq(0).css("color", "black");
+    $("#order_page").eq(0).css("color", "black");
+    $("#order_details_page").eq(0).css("color", "black");
 })
 
 $("#customer_page").eq(0).on('click', function () {
     myFunction1();
-    $("#home_page").eq(0).css("color", "white");
-    $("#customer_page").eq(0).css("color", "black");
-    $("#item_page").eq(0).css("color", "white");
-    $("#order_page").eq(0).css("color", "white");
+    $("#home_page").eq(0).css("color", "black");
+    $("#customer_page").eq(0).css("color", "#004409");
+    $("#item_page").eq(0).css("color", "black");
+    $("#order_page").eq(0).css("color", "black");
+    $("#order_details_page").eq(0).css("color", "black");
 })
 
 $("#item_page").eq(0).on('click', function () {
     myFunction2();
-    $("#home_page").eq(0).css("color", "white");
-    $("#customer_page").eq(0).css("color", "white");
-    $("#item_page").eq(0).css("color", "black");
-    $("#order_page").eq(0).css("color", "white");
+    $("#home_page").eq(0).css("color", "black");
+    $("#customer_page").eq(0).css("color", "black");
+    $("#item_page").eq(0).css("color", "#004409");
+    $("#order_page").eq(0).css("color", "black");
+    $("#order_details_page").eq(0).css("color", "black");
 })
 
 $("#order_page").eq(0).on('click', function () {
     myFunction3();
-    $("#home_page").eq(0).css("color", "white");
-    $("#customer_page").eq(0).css("color", "white");
-    $("#item_page").eq(0).css("color", "white");
-    $("#order_page").eq(0).css("color", "black");
+    $("#home_page").eq(0).css("color", "black");
+    $("#customer_page").eq(0).css("color", "black");
+    $("#item_page").eq(0).css("color", "black");
+    $("#order_page").eq(0).css("color", "#004409");
+    $("#order_details_page").eq(0).css("color", "black");
 })
 
 $("#order_details_page").eq(0).on('click', function () {
     myFunction4();
-    $("#home_page").eq(0).css("color", "white");
-    $("#customer_page").eq(0).css("color", "white");
-    $("#item_page").eq(0).css("color", "white");
-    $("#order_page").eq(0).css("color", "white");
+    $("#home_page").eq(0).css("color", "black");
+    $("#customer_page").eq(0).css("color", "black");
+    $("#item_page").eq(0).css("color", "black");
+    $("#order_page").eq(0).css("color", "black");
+    $("#order_details_page").eq(0).css("color", "#004409");
 })

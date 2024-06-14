@@ -1,7 +1,8 @@
 #navBar {
-    background-color: #00ff11 !important;
+    background-color: rgba(0, 255, 26, 0.788) !important;
     position: relative;
     height: 50px;
+    z-index: 100;
 }
 
 .navbar-nav .nav-link {
@@ -19,7 +20,6 @@
 
 .navbar ul li a {
     text-decoration: none;
-    color: #ffffff;
     text-transform: uppercase;
 }
 
@@ -28,7 +28,6 @@
     height: 3px;
     width: 0;
     background: #000000;
-    color: rgb(255, 255, 255);
     position: absolute;
     left: 0;
     bottom: 10px;
@@ -37,7 +36,7 @@
 
 .navbar ul li:hover::after {
     width: 100%;
-    color: rgb(255, 255, 255);
+    
 }
 
 .navbar ul li a:hover {
