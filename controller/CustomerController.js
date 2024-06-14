@@ -14,6 +14,8 @@ let reset = $("#customer_btn>button").eq(3);
 let searchBtn = $('#search2');
 let searchField = $('#searchField2');
 
+let customerCount = 0;
+
 const mobilePattern = new RegExp("^(?:0|94|\\+94|0094)?(?:(11|21|23|24|25|26|27|31|32|33|34|35|36|37|38|41|45|47|51|52|54|55|57|63|65|66|67|81|91)(0|2|3|4|5|7|9)|7(0|1|2|4|5|6|7|8)\\d)\\d{6}$");
 
 searchField.on('input', function () {
@@ -198,6 +200,10 @@ delete_btn.on('click', function () {
       customer_db.splice(index, 1);
       populateCustomerTbl();
       cleanInputs();
+      
+        customerCount -= 1 ;
+        document.getElementById("customerCount-lable").innerHTML = customerCount;
+
       Swal.fire(
         'Deleted!',
         'Your file has been deleted.',
@@ -219,16 +225,14 @@ reset.on('click', function (e) {
   update.prop("disabled", true);
 });
 
-let customerCount = 0;
-
 document.getElementById("customerSubmit").onclick = function () {
   customerCount = customer_db.length;
   document.getElementById("customerCount-lable").innerHTML = customerCount;
 }
 
-document.getElementById("customerDelete").onclick = function () {
-  customerCount = customer_db.length;
-  document.getElementById("customerCount-lable").innerHTML = customerCount;
-}
+// document.getElementById("customerDelete").onclick = function () {
+//   customerCount = customer_db.length;
+//   document.getElementById("customerCount-lable").innerHTML = customerCount;
+// }
 
 console.log(customer_db);
