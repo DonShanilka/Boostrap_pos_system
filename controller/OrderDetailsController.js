@@ -6,6 +6,8 @@ import {orderModel} from "../model/OrderDetailsModel.js";
 
 let searchField=$('#searchField4');
 
+let totalOrderCount = 0;
+
 //Order Details search
 searchField.on('input', function () {
     let search_term = searchField.val();
@@ -70,3 +72,10 @@ function calculateBalance(cash, total, discount) {
 $('#order_details_page').on('click', function() {
     populateTableOrderDetails();
 });
+
+
+document.getElementById("submitBtn2").onclick = function () {
+    totalOrderCount = order_details_db.length;
+    document.getElementById("order-lable").innerHTML = totalOrderCount;
+  }
+

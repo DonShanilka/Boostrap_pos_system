@@ -48,9 +48,58 @@
     color: #ff6600;
 }
 
-#customer-count-lable {
+.total-order-div > h5 {
     position: absolute;
-    color: red;
+    color: #006d00;
+    top: 10%;
+    left: 40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+}
+
+#order-total-name {
+    position: absolute;
+    top: 70%;
+    color: #006d00;
+    left: 40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%; 
+}
+
+.total-item-div > h5 {
+    position: absolute;
+    color: #006eff;
+    top: 10%;
+    left: 40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+}
+ 
+#item-total-name{
+    position: absolute;
+    top: 70%;
+    color: #006eff;
+    left: 40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%; 
+}
+
+.total-customer-div > h5 {
+    position: absolute;
+    color: #ff0000;
+    top: 10%;
+    left: 40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+}
+
+#customer-total-name {
+    position: absolute;
+    top: 70%;
+    color: #ff00009a;
+    left: 40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%;
 }
 
 .total-customer-div {

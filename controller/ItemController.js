@@ -14,6 +14,8 @@ let reset = $("#item_btn>button").eq(3);
 let searchBtn=$('#search3');
 let searchField=$('#searchField3');
 
+let itemCount = 0;
+
 
 searchField.on('input', function () {
     let search_term = searchField.val();
@@ -115,6 +117,7 @@ submit.on('click',function (){
     if (validation(itemNameValue, "item name", null) &&
         validation(priceValue, "Price", null) &&
         validation(qtyOnHandValue, "Qty On Hand",null)){
+
         let item = new ItemModel(
             itemCodeValue,
             itemNameValue,
@@ -205,6 +208,10 @@ delete_btn.on('click', function (){
         if (result.isConfirmed){
             let index = item_db.findIndex(item => item.itemCode === itemCodeValue);
             item_db.splice(index, 1);
+
+            itemCount = item_db.length;
+            document.getElementById("item-count-lable").innerHTML = itemCount;
+
             populateItemTBL();
             resetColumns();
             Swal.fire(
@@ -216,3 +223,11 @@ delete_btn.on('click', function (){
         }
     });
 })
+
+
+document.getElementById("itemSubmit").onclick = function () {
+    itemCount = item_db.length;
+    document.getElementById("item-count-lable").innerHTML = itemCount;
+}
+
+

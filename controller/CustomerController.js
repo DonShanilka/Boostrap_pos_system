@@ -230,9 +230,4 @@ document.getElementById("customerSubmit").onclick = function () {
   document.getElementById("customerCount-lable").innerHTML = customerCount;
 }
 
-// document.getElementById("customerDelete").onclick = function () {
-//   customerCount = customer_db.length;
-//   document.getElementById("customerCount-lable").innerHTML = customerCount;
-// }
-
 console.log(customer_db);
