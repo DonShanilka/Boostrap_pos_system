@@ -139,3 +139,13 @@
     height: 40%;
     background: rgb(230, 230, 230);
 }
+
+.cust-img,
+.item-img,
+.order-img {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 20%;
+    height: 50%;
+}
