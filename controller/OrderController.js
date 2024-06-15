@@ -340,7 +340,6 @@ submitBtn.on("click", function (e) {
         });
     });
 
-
     // Display a success message
     Swal.fire(
         'Order Placed Successfully!',
@@ -404,10 +403,9 @@ deleteBtn.on("click", function () {
 
             /*Remove the corresponding order details from order_details_db (if needed)*/
             for (let i = 0; i < order_details_db.length; i++) {
-                if(order_details_db[i].order_id===orderIdToDelete){
+                if(order_details_db[i].order_id === orderIdToDelete){
                     order_details_db.splice(i, 1);
                 }
-
             }
 
             items.forEach(item => {
@@ -456,7 +454,6 @@ $('#item-order-table').on('click', 'tbody tr', function() {
     updateBtn2.prop("disabled", false);
     removeBtn.prop("disabled",false);
     add.prop("disabled", true);
-
 
 });
 
